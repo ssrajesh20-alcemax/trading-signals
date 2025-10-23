@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [{ "src": "package.json", "use": "@vercel/static-build" }],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "installCommand": "npm ci",
+  "env": {
+    "NODE_OPTIONS": "--max_old_space_size=4096"
+  }
+}
