@@ -2,8 +2,7 @@
 // Get your free API key from: https://www.alphavantage.co/support/#api-key
 
 // IMPORTANT: Replace 'YOUR_API_KEY_HERE' with your actual API key
-const API_KEY = 'YOUR_API_KEY_HERE'
-const BASE_URL = 'https://www.alphavantage.co/query'
+const API_KEY = 'SBTDPWICYQ0VVHDM'const BASE_URL = 'https://www.alphavantage.co/query'
 
 export interface PriceData {
   date: string
